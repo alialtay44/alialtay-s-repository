@@ -4,13 +4,13 @@ window["__f__m1ze0sdr.0i"] = function(){with (this.s) {(async (u, { p, r, s }) =
     // @namespace    https://www.wolvesville.com/
     // @version      1.3
     // @description  Script is developed to do almost work when u play custom !
-    // @homepage     https://github.com/truongcongquyinfo
-    // @author       https://www.facebook.com/profile.php?id=100004195688381
+    // @homepage     https://github.com/alialtay44
+    // @author       https://www.facebook.com/alialtayy44/
     // @match        https://www.wolvesville.com/
     // @icon         https://www.google.com/s2/favicons?sz=64&domain=wolvesville.com
     // @grant        none
     // @license      MIT
-    // @namespace    https://github.com/truongcongquyinfo
+    // @namespace    https://github.com/alialtay44
     // @downloadURL  https://github.com/truongcongquyinfo/Wolvesville-Some-Script/blob/main/AutoCustomForRenting.js
     // @updateURL    https://github.com/truongcongquyinfo/Wolvesville-Some-Script/blob/main/AutoCustomForRenting.js
     // ==/UserScript==
