@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EK KOD
 // @namespace    https://www.wolvesville.com/
-// @version      0.1
+// @version      0.2
 // @description  Script is developed to do almost work when u play custom !
 // @homepage     https://github.com/alialtay44
 // @author       https://www.facebook.com/alialtayy44/
@@ -16,12 +16,16 @@
 (function () {
     'use strict';
     const targetLetter = 'OK';
+    const checkText = 'Play again';
     function checkAndClick() {
-        const buttons = Array.from(document.querySelectorAll('div[tabindex="0"]'));
+        const buttons = Array.from(document.querySelectorAll('div'));
         buttons.forEach((button) => {
-            const letterElement = button.querySelector('div[dir="auto"]');
-            if (letterElement && letterElement.textContent.trim() === targetLetter) {
-                button.click();
+            if (button.textContent.trim() === targetLetter) {
+                const playAgainExists = Array.from(document.querySelectorAll('div'))
+                    .some(el => el.textContent.trim() === checkText);
+                if (playAgainExists) {
+                    button.click();
+                }
             }
         });
     }
